@@ -1,56 +1,42 @@
-body {
-  background-color: var(--bg);
-  color: #af60a6;
+@media screen and (max-width: 1024px) {
+  .search,
+  .resultContainer,
+  .number {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
 }
 
-:root {
-  --bg: #fdf9fe;
-  --bg-2: #070e10;
-  --bg-3: #83ddde;
-  --magenta: #9b52a8;
-}
+@media screen and (max-width: 640px) {
+  .search,
+  .resultContainer,
+  .number {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
 
+  .inputBox input {
+    font-size: 12px;
+    padding: 10px;
+  }
 
-h2{
-  font-size: 35px;
-  margin-top:15px ;
-  margin-bottom: 15px;
-}
+  .logo h3 {
+    font-size: 18px;
+  }
 
-h2 strong{
-  margin-top: 20px !important;
-  margin-bottom: 20px !important;
+  .logo svg {
+    width: 30px;
+    height: 30px;
+  }
 
-}
+  .icons svg {
+    width: 28px;
+    height: 28px;
+  }
 
-p{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-p strong{
-  font-size: 20px !important;
-}
-
-.inputBox{
-  display: flex;
-  align-items: center;
-  border: 1px solid var(--bg-3);
-  border-radius: 10px;
-  background-color: var(--bg-2);
-  transition: 0.3s ease;
-}
-
-.inputBox:hover{
-  border-color: var(--magenta)
-}
-
-.inputBox input{
-  flex: 1;
-  padding: 15px;
-  border: none;
-  border-radius: 10px;
-  outline: none;
-  background-color: transparent;
-  color: #fff;
-  font-size: 14px;
+  .footer p {
+    font-size: 12px;
+    text-align: center;
+    padding: 0 10px;
+  }
 }

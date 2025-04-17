@@ -4,7 +4,8 @@ import { NotebookPen,  History, BookMarked,  MoonStar   } from 'lucide-react';
 function Nav() {
   return (
     <>
-    <div className='number px-[250px] flex items-center justify-between h-[100px] border-bottom-[1px] border-[#374151]'>
+    <div className='number px-[20px] sm:px-[50px] md:px-[100px] lg:px-[250px] flex flex-wrap items-center justify-between h-auto py-4 border-b border-[#374151]'>
+
       <div className="logo flex items-center gap-[5px]">
       <NotebookPen size={"40px"} color='black'/>
       <h3 className='text-[25px] font-semibold'>Diction<span className='text-blue-950'>Snap</span></h3>
