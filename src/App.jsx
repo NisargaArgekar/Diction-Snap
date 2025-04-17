@@ -65,7 +65,7 @@ const App = () => {
       <div className="flex-grow">
         {/* Search Section */}
         <div className="search mt-5 px-4 sm:px-8 md:px-12 lg:px-24 xl:px-32">
-          <div className="inputBox flex items-center border rounded-lg" style={{ borderColor: inputBorderColor }}>
+          <div className="inputBox flex items-center border rounded-lg shadow-amber-600" style={{ borderColor: inputBorderColor }}>
             <Search color='#8e6131' className='ml-3 cursor-pointer text-lg md:text-xl' />
             <input 
               onKeyUp={(e) => { if(e.key === "Enter"){ getResult(); } }} 
@@ -75,7 +75,7 @@ const App = () => {
               onBlur={resetColor} 
               onFocus={changeBgColor} 
               placeholder='Search a word...' 
-              className="w-full text-base bg-transparent focus:outline-none"
+              className="w-full text-xl bg-transparent focus:outline-none"
             />
           </div>
         </div>
