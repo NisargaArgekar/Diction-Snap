@@ -14,7 +14,7 @@ const App = () => {
   const [inputBorderColor, setInputBorderColor] = useState('#374151');
 
   const changeBgColor = () => {
-    setInputBorderColor("#9333ea");
+    setInputBorderColor("#1d4f8b");
   };
 
   const resetColor = () => {
@@ -87,7 +87,7 @@ const App = () => {
       </div>
   
       
-      <footer className="mt-auto w-full bg-[#173d73] h-[80px] flex items-center justify-center">
+      <footer className="mt-auto w-full bg-[#1d4f8b] h-[80px] flex items-center justify-center">
         <p className="text-white">
           Made with ❤️ by <span className="text-fuchsia-400 cursor-pointer">Nisarga</span> all rights reserved.
         </p>
